@@ -1,3 +1,4 @@
+
 input <- readline("Enter value for K: ")
 K <- as.numeric(input)
 
