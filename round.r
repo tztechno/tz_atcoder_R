@@ -5,4 +5,5 @@ a <- as.integer(X * 10)
 if (a %% 10 >= 5) {
   cat(as.integer(X) + 1, "\n")
 } else if (a %% 10 <= 4) {
-  cat(as.
+  cat(as.integer(X), "\n")
+}
