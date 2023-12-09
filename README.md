@@ -1,5 +1,5 @@
 # tz_atcoder_R
-\* 
+\
 
 #input split value
 input_line <- readLines("stdin", n = 1)
@@ -23,4 +23,4 @@ input <- readLines("stdin", n = 1)
 s <- input[1]
 
 
-\**
+\
