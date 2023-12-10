@@ -9,3 +9,6 @@ cat(N, "\n")
 
 # Print each element of A
 cat(A, "\n")
+
+
+# error error error
