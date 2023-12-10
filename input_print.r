@@ -26,3 +26,12 @@ cat(input_values, "\n")
 
 ################
 
+input_line <- readLines("stdin")
+N <- input_line[1]
+A <- as.numeric(strsplit(input_line[2], " ")[[1]])
+cat(N, "\n")
+cat(A, "\n")
+
+################
+
+
