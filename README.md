@@ -19,11 +19,12 @@ input_line <- readLines("stdin", n = 1)
 input_values <- as.numeric(strsplit(input_line, " ")[[1]])  
 v1 <- input_values[1]  
 
-#### Input split value
-input_line <- readLines("stdin", n = 1)
-input_values <- as.numeric(strsplit(input_line, " ")[[1]])
-A <- input_values[1]
-B <- input_values[2]
+#### Input Double Lines 
+input_line <- readLines("stdin")  
+N <- input_line[1]  
+A <- as.numeric(strsplit(input_line[2], " ")[[1]])  
+cat(N, "\n")  
+cat(A, "\n")  
 
 #### Swap values
 //S[b-1],S[a-1]=S[a-1],S[b-1]  
