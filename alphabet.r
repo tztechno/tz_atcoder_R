@@ -1,4 +1,4 @@
-input_line <- tolower(readLines("stdin", n = 1))
+input_line <- readLines("stdin", n = 1)
 x <- input_line[1]
 
 if (x == tolower(x)) {
